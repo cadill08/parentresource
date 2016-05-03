@@ -56,42 +56,93 @@
     <br>
     <br>
     <br>
-    <br>
+    
     <!--Well Panel-->
 <div class="well well-normal">Weclcome to the Veggie & Chill Gallery!</div>
+
+<br>
+<br>
+<br>
+
+
+<!--Carousel-->
+    
+<div id="carousel-main" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-main" data-slide-to="1"></li>
+    <li data-target="#carousel-main" data-slide-to="2"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/carrot.jpg" class="img-responsive">
+      <div class="carousel-caption">
+      	<h1>Carrots</h1>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/fryup-gnocchi.jpg" class="img-responsive">
+      <div class="carousel-caption">
+      	<h1>Fryup</h1>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/sandwich.jpg" class="img-responsive">
+      <div class="carousel-caption">
+      	<h1>Sandwich</h1>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-main" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-main" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!--Carousel End-->
+
+<br>
+<br>
+<br>
+
       
     <!--Gallery1-->
       <div clas="container">
  <div class="row">
-    <div class="col-sm-4">
-      <a href="#" class="thumbnail gallery-thumb">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+      <a href="#" class="thumbnail">
         <img src="images/fryup-gnocchi.jpg" alt="Fryup">
         </a>
         <h3>Fryup Gnocchi</h3>
-        <p>Text Text Text ext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Text</p>
+       
        <a href="#" class="btn btn-info">Recipies</a>
     </div>
      
-    <div class="col-sm-4">
-      <a href="#" class="thumbnail gallery-thumb">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+      <a href="#" class="thumbnail">
         <img src="images/sandwich.jpg" alt="sandwich">
         </a>
         <h3>Veggie Sandwich</h3>
-        <p>Text Text Text ext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Text</p>
+      
        <a href="#" class="btn btn-info">Recipies</a>
     </div>
     
-    <div class="col-sm-4">
-      <a href="#" class="thumbnail gallery-thumb">
+    <div class= "col-xs-12 col-sm-4 col-md-4 col-lg-4">
+      <a href="#" class="thumbnail">
         <img src="images/potato-salad.jpg" alt="potato">
         </a>
         <h3>Potato Salad</h3>
-        <p>Text Text Text ext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Text</p>
+     
        <a href="#" class="btn btn-info">Recipies</a>
     </div>
         
     </div>
-</div> 
+</div> <!--Gallery1 End-->
    
    <br>
    <br>
@@ -101,41 +152,60 @@
  <div class="row">
     <div class="col-sm-4">
       <a href="#" class="thumbnail gallery-thumb">
-        <img src="images/veg-soup.jpg" alt="soup">
+        <img src="images/veg-soup.jpg" alt="Soup" class="img-responsive">
         </a>
         <h3>Vegetable Soup</h3>
-        <p>Text Text Text ext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Text</p>
+       
        <a href="#" class="btn btn-info">Recipies</a>
     </div>
      
     <div class="col-sm-4">
       <a href="#" class="thumbnail gallery-thumb">
-        <img src="images/vegan-sushi.jpg" alt="sushi">
+        <img src="images/sushi.jpg" alt="Sushi" class="img-responsive">
         </a>
         <h3>Vegan Sushi</h3>
-        <p>Text Text Text ext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Text</p>
+      
        <a href="#" class="btn btn-info">Recipies</a>
     </div>
     
     <div class="col-sm-4">
       <a href="#" class="thumbnail gallery-thumb">
-        <img src="images/spaghetti-mush.jpg" alt="spaghetti">
+        <img src="images/mushroom.jpg" alt="mush" class="img-responsive">
         </a>
-        <h3>Spaghetti</h3>
-        <p>Text Text Text ext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Textext Text Text</p>
+        <h3>Stuffed Mushroom</h3>
+      
        <a href="#" class="btn btn-info">Recipies</a>
     </div>
         
     </div>
-</div> 
-   
-   
+</div> <!--Gallery2 End-->
   
+  <br>
+  <br>
+  <br>
+  
+  <!--Jquery Animation-->
+    <div id="portrait">
+    <div id="plainpic"></div>
+  </div>
+ 
+  <br /><br />
+
+ <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+  <button type="button1" id="click1">Style Up!</button>
+  <button type="button1" id="click2">Style Down!</button>
+    </div>
+<br /><br />
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+  <button type="button1" id="click3">Add/Remove Pic</button>
+</div><!--Jquery Animation End-->
+  <br>
+  <br>
   
   
  
    
-   </body>
+   
    
 
 
@@ -144,6 +214,40 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/my.js"></script>
+    
+<!--Jquery Carousel-->
+<script>
+	$(".carousel").carousel({
+		interval: 2000
+	})
+</script><!--Jquery Carousel End-->
+
+
+<!--Jquery Animation-->
+    <script>
+    $(document).ready(function() {
+  //add class
+  $("#click1").click(function() {
+
+    $("#plainpic").addClass("stylepic");
+  });
+      
+      //remove class
+     $("#click2").click(function() {
+
+    $("#plainpic").removeClass("stylepic");
+  });    
+      
+  // toggle class   
+ $("#click3").click(function() {
+
+    $("#plainpic").toggleClass("sushi");
+  });    
+});
+     
+  </script><!--Jquery Animation End-->
+  
+  
   </body>
 </html>
 

@@ -88,7 +88,7 @@
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-pencil"></i></span>
                             <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message" placeholder="Let us know what types of recipes you would like to receive." rows="7"></textarea>
+                                <textarea class="form-control" id="message" name="message" placeholder="Tell us more about your event." rows="7"></textarea>
                             </div>
                         </div>
 
@@ -103,7 +103,25 @@
         </div>
     </div>
 </div>
-</body>
+<br>
+<br>
+<br>
+
+<!--Jquery Animation-->
+    <div id="portrait">
+    <div id="plainpic"></div>
+  </div>
+ 
+  <br /><br />
+
+ <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+  <button type="button1" id="click1">Style Up!</button>
+  <button type="button1" id="click2">Style Down!</button>
+    </div>
+<br /><br />
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+  <button type="button1" id="click3">Add/Remove Pic</button>
+</div><!--Jquery Animation End-->
    
       
       
@@ -114,6 +132,33 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/my.js"></script>
+    
+    <!--Jquery Animation-->
+    <script>
+    $(document).ready(function() {
+  //add class
+  $("#click1").click(function() {
+
+    $("#plainpic").addClass("stylepic");
+  });
+      
+      //remove class
+     $("#click2").click(function() {
+
+    $("#plainpic").removeClass("stylepic");
+  });    
+      
+  // toggle class   
+ $("#click3").click(function() {
+
+    $("#plainpic").toggleClass("sushi");
+  });    
+});
+     
+  </script><!--Jquery Animation End-->
+    
+    
+    
   </body>
   
   </html>
