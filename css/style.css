@@ -1,8 +1,8 @@
-/*body {*/
-/*    background-color: #87BD8E;*/
-/*}*/
+body {
+    background-color: #B7BD8E;
+}
 
-
+/*Jumbotron*/
 .jumbotron {
     position: relative;
     background: url("../images/jumbotron.jpg");
@@ -10,9 +10,29 @@
     height: 50%;
     background-size: cover;
     margin: 0px;
+    font-family: indie flower, cursive, serif, sans-serif;
+    color: white;
+}
+
+h3{color: white;
+    font-family: indie flower, cursive, serif, sans-serif;
+}
+
+h2{color: white;
+    font-family: indie flower, cursive, serif, sans-serif;
+}
+
+.well-normal{
+    text-align: center;
+    font-size: 18px;
+    background-color: #B7BD8E;
+    font-family: indie flower, cursive, serif, sans-serif;
+    color: white;
 }
 
 
+
+/*Navbar*/
 .navbar-inverse {
     margin: 0px;
     background-color: #B7BD8E
@@ -173,11 +193,15 @@
 .footer {
     height: 100px;
     width: 2000px;
-    background-color: green;
+    background-color: #87BD8E;
 }
 
 
-
+.infoboxabout {
+    background-color: red;
+    padding-top: 200px;
+    
+}
    
 
 
@@ -196,12 +220,35 @@
     
 }
 
+.infoboxabout {
+    height: 700px;
+    width: 1700px;
+    background-color: yellow;
+}
 
-.well-normal{
-    text-align: center;
-    font-size: 18px;
-    background-color: #B7BD8E;
-    
+.chefimage {
+    height: 300px;
+    width: 400px;
+    float: left;
+    margin-left: 100px;
+}
+
+.about {
+    height: 300px;
+    width: 600px;
+    font-family: indie flower, cursive, serif, sans-serif;
+    color: black;
+    float: left;
+    background-color: green;
+    margin-left: 100px;
+}
+
+#socialmedia {
+    height: 300px;
+    width: 400px;
+    background-color: purple;
+    float: right;
+    position: absolute;
 }
 
 /*Jquery Animation*/
@@ -224,7 +271,7 @@
   
 }
 
-#portrait {background-color:#BFF2FF;
+#portrait {background-color:#87BD8E;
 padding: 10px;} 
 
 

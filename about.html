@@ -13,6 +13,8 @@
 
 </head>
 
+<body>
+
 <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav">
   <div class="container">
     <div class="navbar-header">
@@ -22,12 +24,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="./" class="navbar-brand">Bootstrap 3 Menu Generator</a>
+      <a href="index.html" class="navbar-brand">Veggie & Chill</a>
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li>
-          <a href="index.html">About</a>
+          <a href="index.html">Home</a>
         </li>
 				<li class="dropdown">
 	        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -40,71 +42,64 @@
 	        </ul>
 	      </li>
         <li>
-          <a href="about.html">About Me</a>
+          <a href="about.html">About</a>
         </li>
         <li>
-          <a href="gallery.html">Recipies</a>
+          <a href="gallery.html">Gallery</a>
         </li>
         <li class="active">
         <li>
-          <a href="contact.html">Newsletter</a>
+          <a href="contact.html">Contact</a>
         </li>
       </ul>
     </nav>
   </div>
 </header>
+
+
     
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="infoboxabout">
+        <!--<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">-->
         
-            <div class="pic">
-                <img class="img-responsive img-circle" src="images/example_pic.jpg" style="width:420px;height:400px;margin-left:80px;">
-            </div>
+            <!--<div class="pic">-->
+            <!--    <img class="img-responsive img-circle" src="images/example_pic.jpg" style="width:420px;height:400px;margin-left:80px;">-->
+            <!--</div>-->
 
+       
+<div class="chefimage">
+  <img src="images/chef.jpg" class="img-responsive img-rounded" height="300" width="400">
+  
+  
+</div>
+<div class="about">
+  <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque </h4>
+  
+</div>
+<button>Click here for socialmedia information</button>
+<div id="socialmedia">
+  
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo</p>
+ 
+  
+</div>
         </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="story1">
-                <div class="blurb">
-                    <h4>An sed etiam munere, duo at essent maiorum recusabo. Explicari definitiones mel ad. Has modo alia conclusionemque ut, pro agam errem reprimique ea. Mea idque timeam intellegam eu, vix alia cetero senserit et, usu cu sensibus maluisset.An sed etiam munere, duo at essent maiorum recusabo. Explicari definitiones mel ad. Has modo alia conclusionemque ut, pro agam errem reprimique ea. Mea idque timeam intellegam eu, vix alia cetero senserit et, usu cu sensibus maluisset</h4>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-    <!--<div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            My background story will go here
-            <div class="story1">
-                <div class="blurb">
-                    <h4>An sed etiam munere, duo at essent maiorum recusabo. Explicari definitiones mel ad. Has modo alia conclusionemque ut, pro agam errem reprimique ea. Mea idque timeam intellegam eu, vix alia cetero senserit et, usu cu sensibus maluisset.</h4>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="story1">
-                <div class="blurb">
-                    <h4>An sed etiam munere, duo at essent maiorum recusabo. Explicari definitiones mel ad. Has modo alia conclusionemque ut, pro agam errem reprimique ea. Mea idque timeam intellegam eu, vix alia cetero senserit et, usu cu sensibus maluisset.</h4>
-                </div>
-            </div>
-
-        </div>
-
-    </div>-->
-
+    </body>
+    
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/my.js"></script>
+<script>
+     $(document).ready(function(){
+    $("button").click(function(){
+        $("#socialmedia").animate({right: '250px'});
+    });
+});
+</script>
+
+<!--<img class="img-responsive img-circle" src="../images/carrot.jpg">-->
 
 
-<img class="img-responsive img-circle" src="/img/filename.jpeg"
-
-</body>
 
 </html>
