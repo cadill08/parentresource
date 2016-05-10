@@ -1,5 +1,6 @@
 body {
     background-color: #B7BD8E;
+    font-family: 'Indie Flower', cursive;
 }
 
 /*Jumbotron*/
@@ -10,23 +11,23 @@ body {
     height: 50%;
     background-size: cover;
     margin: 0px;
-    font-family: indie flower, cursive, serif, sans-serif;
+    font-family: 'Indie Flower', cursive;
     color: white;
 }
 
 h3{color: white;
-    font-family: indie flower, cursive, serif, sans-serif;
+    font-family: 'Indie Flower', cursive;
 }
 
 h2{color: white;
-    font-family: indie flower, cursive, serif, sans-serif;
+    font-family: 'Indie Flower', cursive;
 }
 
 .well-normal{
     text-align: center;
     font-size: 18px;
     background-color: #B7BD8E;
-    font-family: indie flower, cursive, serif, sans-serif;
+    font-family: 'Indie Flower', cursive;
     color: white;
 }
 
@@ -153,7 +154,7 @@ h2{color: white;
     float: left;
     padding-top: 100px;
     padding-left: 20px;
-    font-family:#7F8B4A;
+    font-family:'Indie Flower', cursive;;
     text-align: center;
     color: black;
 }
@@ -198,7 +199,7 @@ h2{color: white;
 
 
 .infoboxabout {
-    background-color: red;
+    /*background-color: red;*/
     padding-top: 200px;
     
 }
@@ -223,7 +224,6 @@ h2{color: white;
 .infoboxabout {
     height: 700px;
     width: 1700px;
-    background-color: yellow;
 }
 
 .chefimage {
@@ -236,19 +236,22 @@ h2{color: white;
 .about {
     height: 300px;
     width: 600px;
-    font-family: indie flower, cursive, serif, sans-serif;
-    color: black;
+    font-family: 'Indie Flower', cursive;
+    /*color: black;*/
     float: left;
-    background-color: green;
+    /*background-color: green;*/
     margin-left: 100px;
+    text-align: center;
+    color:black;
 }
 
-#socialmedia {
+.socialmedia {
     height: 300px;
     width: 400px;
     background-color: purple;
     float: right;
-    position: absolute;
+    /*position: absolute;*/
+    float: right;
 }
 
 /*Jquery Animation*/
